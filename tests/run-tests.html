@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pocketwise automated checks</title>
+<style>
+  body { font-family: "Segoe UI", system-ui, sans-serif; margin: 0; padding: 20px; color: #16212e; background: #f6f8f7; }
+  main { max-width: 1200px; margin: 0 auto; }
+  table { width: 100%; border-collapse: collapse; background: #fff; margin-bottom: 18px; font-size: 14px; }
+  th, td { text-align: left; padding: 6px 9px; border-bottom: 1px solid #dfe4ea; vertical-align: top; }
+  th { background: #eef2f0; font-size: 12px; text-transform: uppercase; }
+  .num { text-align: right; }
+  .pass { color: #0f6e4f; font-weight: 700; }
+  .fail { color: #b42318; font-weight: 700; }
+  #summary { font-size: 18px; margin: 10px 0 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pocketwise automated checks</h1>
+  <p>Open this file in Chrome or Edge. It runs automated checks on the made-up test files and shows pass or fail. It uses its own storage key, so it never changes your saved Pocketwise data.</p>
+  <div id="summary">Running...</div>
+  <table><thead><tr><th>Area</th><th>Check</th><th>Expected</th><th>Actual</th><th>Result</th></tr></thead><tbody id="results"></tbody></table>
+  <div id="accuracy"></div>
+</main>
+<script src="../js/config.js"></script>
+<script src="../js/util.js"></script>
+<script src="../js/import.js"></script>
+<script src="../js/categorize.js"></script>
+<script src="../js/income.js"></script>
+<script src="../js/analysis.js"></script>
+<script src="../js/budget.js"></script>
+<script src="../js/planner.js"></script>
+<script src="../js/recurring.js"></script>
+<script src="../js/storage.js"></script>
+<script src="fixtures.js"></script>
+<script src="tests.js"></script>
+</body>
+</html>
