@@ -33,7 +33,18 @@
   </nav>
 </header>
 
-<main id="view" tabindex="-1"></main>
+<main id="view" tabindex="-1">
+  <!-- Shown only if the app's files did not load; app.js replaces it when everything works. -->
+  <div style="max-width:640px;margin:40px auto;padding:20px 24px;border:2px solid #b42318;border-radius:12px;background:#fdecea;color:#16212e;font:16px/1.5 Segoe UI,Arial,sans-serif">
+    <h1 style="margin:0 0 8px;font-size:22px;color:#b42318">Pocketwise could not load its files</h1>
+    <p style="margin:0 0 8px">This usually happens when <strong>index.html</strong> is opened from inside the ZIP file, or copied away from its folder.</p>
+    <ol style="margin:0;padding-left:20px">
+      <li>Right-click the downloaded ZIP and choose <strong>Extract All...</strong>, then click <strong>Extract</strong>.</li>
+      <li>Open the extracted folder (keep <strong>index.html</strong>, <strong>styles.css</strong> and the <strong>js</strong> folder together).</li>
+      <li>Double-click <strong>index.html</strong>.</li>
+    </ol>
+  </div>
+</main>
 
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <div id="modalRoot"></div>

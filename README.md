@@ -6,9 +6,10 @@ and points out recurring charges. It runs entirely in your browser: **no bank lo
 
 ## How to open it
 
-1. Download this repository: green **Code** button > **Download ZIP**, then unzip it.
-2. Double-click **`index.html`**. It opens in your browser (Chrome or Edge recommended). Nothing to install, no internet needed.
-3. Click **Try with sample data** to explore with a made-up statement, or **Upload bank statement (CSV)** to use your own file.
+1. Download this repository: green **Code** button > **Download ZIP**.
+2. **Extract the ZIP first**: right-click it > **Extract All...** > **Extract**. (Opening `index.html` from inside the ZIP does not work, because the browser cannot see the `js` folder and `styles.css` next to it.)
+3. In the extracted folder, double-click **`index.html`**. It opens in your browser (Chrome or Edge recommended). Nothing to install, no internet needed.
+4. Click **Try with sample data** to explore with a made-up statement, or **Upload bank statement (CSV)** to use your own file.
 
 ## How to use it
 
